@@ -1,0 +1,28 @@
+.card-one{
+    background-image: linear-gradient( to left,  rgb(180, 103, 231), rgb(105, 61, 217));
+    color: white;
+    padding: 1rem;
+}
+
+.card-two{
+    background-image: linear-gradient(  to left,rgb(240, 232, 116), rgb(217, 162, 61));
+    color: white;
+    padding: 1rem;
+}
+
+.card-three{
+    background-image: linear-gradient( to left, rgb(161, 208, 73), rgb(61, 217, 142));
+    color: white;
+    padding: 1rem;
+}
+.card-four{
+    background-image: linear-gradient(to left,  rgb(239, 121, 121), rgb(235, 16, 16));
+    color: white;
+    padding: 1rem;
+}
+
+.sub-head{
+    display: flex;
+    justify-content: space-around;
+
+}
