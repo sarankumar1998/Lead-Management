@@ -1,13 +1,11 @@
 import { Card, CardHeader, Chip } from "@mui/material";
 import React from "react";
 import "../Styles/Dashboard.css";
-import SideBar from "../Container/SideBar";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
 
 export default function Dashboard() {
   return (
     <div className="main">
-      <SideBar />
       <div style={{ marginTop: "10rem", margin: "10rem", marginLeft: "19rem" }}>
         <div className="row mt-5">
           <div className="col-xl-8 col-md-10">
