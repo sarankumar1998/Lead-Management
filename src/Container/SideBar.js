@@ -69,8 +69,8 @@ export default function SideBar() {
       </Drawer>
       <Routes>
         <Route path="/Leads" element={<Leads />} />
-        <Route path="/*" element={<Dashboard />} />
-        <Route path="dashboard*" element={<Dashboard />} />
+        <Route path="/" element={<Dashboard />} />
+        <Route path="dashboard" element={<Dashboard />} />
       </Routes>
     </Box>
   );
